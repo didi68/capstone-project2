@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-image {
+    background-image: url("me.webp");
+    background-color: #cccccc;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #748E63;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+    border-radius: 50%;
+    width: 17%;
+}
+
+hr {
+    width: 10%;
+    border-top-style: dotted;
+}
+
+.footer {
+    background-color: #99B080;
+}
+
+.second, .media, .customer {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    margin: 0;
+}
+.center {
+    width: 30%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #cccccc;
+}
+
+a:hover {
+    color: #61A3BA;
+}
+
+a:visited {
+    color: #CD5C08;
+}
+
+h2, h3 {
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon, .name {
+    display: inline-block;
+    
+}
+
+.right > p {
+    display: inline-block;
+}
+
+.left, .right {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+}
+
+@media (max-width: 993px) {
+    .hero-image {
+        height: 400px;
+        background-size: cover;
+    }
+
+    .second, .media, .customer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        padding-top: 2%;
+    }
+
+    .design {
+        height: 300;
+    }
+
+
+    .footer {
+        text-align: center;
+    }
+
+    .right {
+        float: none;
+        padding-top: 2px;
+    }
+
+    .image {
+        width: 45%;
+    }
+}
+    
+@media (max-width: 1200px) {
+    .hero-image {
+        background-size: contain;
+    }
+}
