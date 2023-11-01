@@ -27,7 +27,6 @@ body {
 
 .image {
     border-radius: 50%;
-    width: 17%;
     object-fit: cover;
 }
 
@@ -130,7 +129,6 @@ h2, h3 {
 
     .image {
         object-fit: cover;
-        width: 45%;
     }
 }
     
